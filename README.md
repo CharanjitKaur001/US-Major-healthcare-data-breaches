@@ -1,6 +1,6 @@
 
 
-#  Analysis of Major US Health Data Breaches
+#  Analysis of Major US Health Data Breaches - SQL
 
 Data source: https://www.kaggle.com/datasets/thedevastator/major-us-health-data-breaches
 
