@@ -2,6 +2,8 @@
 
 #  Analysis of Major US Health Data Breaches
 
+Data source: https://www.kaggle.com/datasets/thedevastator/major-us-health-data-breaches
+
 Introduction:
 In this SQL project, we have created a table named "breach_report" to contain the data related to various data breaches. We have then answered several questions using SQL queries to gain insights into the data, such as the total number of records and individuals affected, which organizations, states, and types of entities were impacted, when and where the breaches occurred, and the types of breaches that happened, among others.
 
