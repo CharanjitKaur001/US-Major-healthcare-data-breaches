@@ -2,6 +2,38 @@
 
 #  Analysis of Major US Health Data Breaches
 
-Objective: The aim of this project is to analyze the dataset of major US health data breaches and gain insights into the patterns and trends of such breaches. 
-The project aims to answer questions such as the number of records and individuals impacted by the breaches, the types and locations of breached information, the types of entities affected, and the correlation between breach submission date and type/location of breached information.
-The analysis can help healthcare organizations to better understand and mitigate their own risk when dealing with sensitive health data and improve their compliance with existing regulations regarding patient privacy and security protocols related to health data management.
+Introduction:
+In this SQL project, we have created a table named "breach_report" to contain the data related to various data breaches. We have then answered several questions using SQL queries to gain insights into the data, such as the total number of records and individuals affected, which organizations, states, and types of entities were impacted, when and where the breaches occurred, and the types of breaches that happened, among others.
+
+Objective:
+The objective of this SQL project is to analyze the data related to various data breaches and answer specific questions to gain insights into the dataset.
+
+
+SQL commands used: 
+
+CREATE TABLE: To create a new table called 'breach_report'.
+SELECT: To display the data from the 'breach_report' table.
+UPDATE: To convert the 'breach_submission_date' column from string to date format.
+WHERE: To filter out the rows where the 'type_of_entity' column is null or empty.
+DESCRIBE: To display the structure of the 'breach_report' table.
+SHOW: To display the columns in the 'breach_report' table.
+DISTINCT: To retrieve unique values from a column.
+GROUP BY: To group the rows by a specific column.
+ORDER BY: To sort the rows in ascending or descending order.
+LIMIT: To limit the number of rows returned in the result set.
+YEAR: To extract the year from a date column.
+ALTER: To remove a column called 'web_description' from the 'breach_report' table.
+DROP: To delete the 'web_description' column structure and related records stored in the table.
+
+SQL Aggregate Function used: 
+SUM: To calculate the sum of a column.
+COUNT: To count the number of rows or columns.
+AVG: To calculate the average value of the numeric type.
+MAX: To find the maximum value of a certain column.
+MIN: To find the minimum value of a certain column.
+
+
+PRIMARY KEY: To uniquely identify a row of a table.
+
+
+
