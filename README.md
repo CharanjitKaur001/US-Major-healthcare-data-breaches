@@ -5,7 +5,7 @@
 Data source: https://www.kaggle.com/datasets/thedevastator/major-us-health-data-breaches
 
 Introduction:
-In this SQL project, we have created a table named "breach_report" to contain the data related to various data breaches. We have then answered several questions using SQL queries to gain insights into the data, such as the total number of records and individuals affected, which organizations, states, and types of entities were impacted, when and where the breaches occurred, and the types of breaches that happened, among others.
+In this SQL project, I have created a table named "breach_report" that contains data related to various data breaches. I have then answered several questions using SQL queries to gain insights into the data, such as the total number of records and individuals affected, which organizations, states, and types of entities were impacted, when and where the breaches occurred, and the types of breaches that happened, among others.
 
 Objective:
 The objective of this SQL project is to analyze the data related to various data breaches and answer specific questions to gain insights into the dataset.
